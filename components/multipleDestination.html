@@ -1,0 +1,342 @@
+<div class="screen-container">
+  <div class="tab-content" id="tab3">
+    <div class="screen-container">
+      <div class="form-container">
+        <div class="input-box double-width" style="width: 100%">
+          <div class="row-flex" style="display: flex; align-items: center">
+            <input
+              class="input1"
+              type="text"
+              placeholder="From"
+              tit
+              style="flex: 1; margin-right: 8px"
+            />
+            <img
+              class="arrow-icon"
+              src="/images/arrow.svg"
+              alt=""
+              style="margin-left: 8px"
+            />
+          </div>
+        </div>
+        <div class="input-box double-width" style="width: 100%">
+          <div class="row-flex" style="display: flex; align-items: center">
+            <input
+              class="input1"
+              type="text"
+              placeholder="To"
+              tit
+              style="flex: 1; margin-right: 8px"
+            />
+            <img
+              class="arrow-icon"
+              src="/images/arrow.svg"
+              alt=""
+              style="margin-left: 8px"
+            />
+          </div>
+        </div>
+        <div class="double-input double-height">
+          <div class="datepicker">
+            <img
+              src="/images/calender.svg"
+              alt=""
+              style="height: 1rem; margin-top: 0.5rem"
+            />
+            <input
+              type="text"
+              class="datepicker-input"
+              placeholder="Select Date"
+              readonly
+            />
+            <div class="datepicker-popup">
+              <div class="header">
+                <div class="nav-arrow prev-month" id="">
+                  <svg
+                    class="arrow-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 17 17"
+                  >
+                    <path
+                      d="M3.793 8.472l7.854 7.854-0.707 0.707-7.146-7.146 7.146-7.148 0.707 0.707-7.854 7.854z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="month-year">
+                  <select id="month-select"></select>
+                  <select id="year-select"></select>
+                </div>
+                <div class="nav-arrow next-month" id="">
+                  <svg
+                    class="arrow-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 17 17"
+                  >
+                    <path
+                      d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="days"></div>
+            </div>
+          </div>
+          <div class="custom-select-wrapper">
+            <div class="custom-select" tabindex="0">
+              <img src="/images/time.svg" alt="" />
+            </div>
+            <div class="time-select custom-select-options">
+              <div data-value="1">00:00</div>
+              <div data-value="2">00:30</div>
+              <div data-value="3">01:00</div>
+              <div data-value="3">01:30</div>
+              <div data-value="1">02:00</div>
+              <div data-value="1">02:30</div>
+              <div data-value="1">03:00</div>
+              <div data-value="1">03:30</div>
+              <div data-value="1">04:00</div>
+              <div data-value="1">04:30</div>
+              <div data-value="1">05:00</div>
+              <div data-value="1">05:30</div>
+              <div data-value="1">06:00</div>
+              <div data-value="1">06:30</div>
+              <div data-value="1">07:00</div>
+              <div data-value="1">07:30</div>
+              <div data-value="1">08:00</div>
+              <div data-value="1">08:30</div>
+              <div data-value="1">09:00</div>
+              <div data-value="1">09:30</div>
+              <div data-value="1">10:00</div>
+              <div data-value="1">10:30</div>
+              <div data-value="1">11:00</div>
+              <div data-value="1">11:30</div>
+              <div data-value="1">12:00</div>
+              <div data-value="1">12:30</div>
+              <div data-value="1">13:00</div>
+              <div data-value="1">13:30</div>
+              <div data-value="1">14:00</div>
+              <div data-value="1">14:30</div>
+              <div data-value="1">15:00</div>
+              <div data-value="1">15:30</div>
+              <div data-value="1">16:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="input-Box hide-dropdown">
+          <img src="/images/pessengers.svg" alt="" />
+          <select id="hide-dropdown" class="customSelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>19+</option>
+          </select>
+        </div>
+        <div class="inputBox">
+          <div class="Row">
+            <img src="/images/aircraft.svg" alt="Image" />
+          </div>
+          <div class="Row Tab">
+            <button class="openFormButton">Type of aircraft</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-container">
+        <div class="form-container">
+          <div class="input-box double-width" style="width: 100%">
+            <div class="row-flex" style="display: flex; align-items: center">
+              <input
+                class="input1"
+                type="text"
+                placeholder="From"
+                tit
+                style="flex: 1; margin-right: 8px"
+              />
+              <img
+                class="arrow-icon"
+                src="/images/arrow.svg"
+                alt=""
+                style="margin-left: 8px"
+              />
+            </div>
+          </div>
+          <div class="input-box double-width" style="width: 100%">
+            <div class="row-flex" style="display: flex; align-items: center">
+              <input
+                class="input1"
+                type="text"
+                placeholder="To"
+                tit
+                style="flex: 1; margin-right: 8px"
+              />
+              <img
+                class="arrow-icon"
+                src="/images/arrow.svg"
+                alt=""
+                style="margin-left: 8px"
+              />
+            </div>
+          </div>
+          <div class="double-input double-height">
+            <div class="datepicker">
+              <img
+                src="/images/calender.svg"
+                alt=""
+                style="height: 1rem; margin-top: 0.5rem"
+              />
+              <input
+                type="text"
+                class="datepicker-input"
+                placeholder="Select Date"
+                readonly
+              />
+              <div class="datepicker-popup">
+                <div class="header">
+                  <div class="nav-arrow prev-month" id="">
+                    <svg
+                      class="arrow-svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 17 17"
+                    >
+                      <path
+                        d="M3.793 8.472l7.854 7.854-0.707 0.707-7.146-7.146 7.146-7.148 0.707 0.707-7.854 7.854z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="month-year">
+                    <select id="month-select"></select>
+                    <select id="year-select"></select>
+                  </div>
+                  <div class="nav-arrow next-month" id="">
+                    <svg
+                      class="arrow-svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 17 17"
+                    >
+                      <path
+                        d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="days"></div>
+              </div>
+            </div>
+            <div class="custom-select-wrapper">
+              <div class="custom-select" tabindex="0">
+                <img src="/images/time.svg" alt="" />
+              </div>
+              <div class="time-select custom-select-options">
+                <div data-value="1">00:00</div>
+                <div data-value="2">00:30</div>
+                <div data-value="3">01:00</div>
+                <div data-value="3">01:30</div>
+                <div data-value="1">02:00</div>
+                <div data-value="1">02:30</div>
+                <div data-value="1">03:00</div>
+                <div data-value="1">03:30</div>
+                <div data-value="1">04:00</div>
+                <div data-value="1">04:30</div>
+                <div data-value="1">05:00</div>
+                <div data-value="1">05:30</div>
+                <div data-value="1">06:00</div>
+                <div data-value="1">06:30</div>
+                <div data-value="1">07:00</div>
+                <div data-value="1">07:30</div>
+                <div data-value="1">08:00</div>
+                <div data-value="1">08:30</div>
+                <div data-value="1">09:00</div>
+                <div data-value="1">09:30</div>
+                <div data-value="1">10:00</div>
+                <div data-value="1">10:30</div>
+                <div data-value="1">11:00</div>
+                <div data-value="1">11:30</div>
+                <div data-value="1">12:00</div>
+                <div data-value="1">12:30</div>
+                <div data-value="1">13:00</div>
+                <div data-value="1">13:30</div>
+                <div data-value="1">14:00</div>
+                <div data-value="1">14:30</div>
+                <div data-value="1">15:00</div>
+                <div data-value="1">15:30</div>
+                <div data-value="1">16:00</div>
+              </div>
+            </div>
+          </div>
+          <div class="input-Box hide-dropdown">
+            <img src="/images/pessengers.svg" alt="" />
+            <select id="hide-dropdown" class="customSelect">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>19+</option>
+            </select>
+          </div>
+          <div class="inputBox">
+            <div class="Row">
+              <img src="/images/aircraft.svg" alt="Image" />
+            </div>
+            <div class="Row Tab">
+              <button class="openFormButton">Type of aircraft</button>
+            </div>
+            <button
+              type="button"
+              class="small-circle-button small-circle-button--close ticket-landing__remove"
+            >
+              x
+            </button>
+          </div>
+        </div>
+        <div>
+          <button
+            type="button"
+            class="flex-container align-middle align-justify button__add button__add--form"
+          >
+            <span
+              class="button__add-icon"
+              style="background-image: url('/images/add-button.svg')"
+            ></span>
+            <span class="button__add-text">Add a destination</span>
+          </button>
+          <div class="grid-x align-right form-container">
+            <div class="small-12 medium-3 xxlarge-2 btn-modal-container">
+              <button class="btn-modal" type="button">Request Quotes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
