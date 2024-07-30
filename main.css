@@ -566,8 +566,6 @@ a {
   font-family: trajan-pro-3, serif;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.75rem;
-  line-height: 1.2em;
   font-weight: 300;
   letter-spacing: 0.1em;
   color: #fff;
@@ -581,9 +579,6 @@ a {
 
 .title h3 {
   font-family: trajan-pro-3, serif;
-  font-size: 1.5rem;
-  line-height: 1.25em;
-  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   color: #bd9973;
